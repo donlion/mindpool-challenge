@@ -147,7 +147,6 @@
     "deployAssets": "gulp deploy-assets",
     "generateEnvs": "gulp environment",
     "prepush": "yarn run lint-branch",
-    "unused-files": "gulp unused-files",
     "stress-test": "yarn run stress-test-frontend",
     "stress-test-frontend": "artillery run stresstest.yml",
     "stress-test-backend": "artillery run stresstest-backend.yml"
@@ -162,6 +161,7 @@
   },
   "homepage": "https://github.com/donlion/superminds#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "classlist.js": "^1.1.20150312"
   },
   "browserslist": [

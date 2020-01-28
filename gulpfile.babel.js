@@ -6,7 +6,6 @@ import rename from 'gulp-rename';
 import fileNames from 'gulp-filenames';
 import runSequence from 'run-sequence';
 import webpack from 'webpack';
-import findUnusedFiles from './tools/unusedFiles';
 import merge from 'merge-stream';
 import svgstore from 'gulp-svgstore';
 import svgmin from 'gulp-svgmin';
@@ -235,8 +234,6 @@ gulp.task('manifest', () => {
     return gulp.src(PATHS.manifest.src)
         .pipe(gulp.dest(PATHS.manifest.dist));
 });
-
-gulp.task('unused-files', () => findUnusedFiles('./src'));
 
 /**
  * Generate CSS property order config for stylelint,
