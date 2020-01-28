@@ -67,7 +67,7 @@
     "intersection-observer": "^0.7.0",
     "json-loader": "^0.5.7",
     "load-grunt-tasks": "^4.0.0",
-    "lodash": "4.17.11",
+    "lodash": "4.17.13",
     "log-symbols": "^1.0.2",
     "memorystore": "^1.6.0",
     "merge-stream": "^1.0.1",
