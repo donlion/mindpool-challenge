@@ -71,7 +71,7 @@
     "log-symbols": "^1.0.2",
     "memorystore": "^1.6.0",
     "merge-stream": "^1.0.1",
-    "metascraper": "^1.0.7",
+    "metascraper": "^5.2.0",
     "mime-types": "^2.1.13",
     "mini-css-extract-plugin": "^0.4.4",
     "mocha": "^4.0.1",
